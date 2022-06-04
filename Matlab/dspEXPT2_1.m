@@ -1,0 +1,11 @@
+clear;
+clc;
+x=input ('enter the value of x:');
+y=input ('enter the value of y:');
+h=conv(x,y);
+disp('the impluse response of the system is');
+disp(h);
+N=length(h);
+n=0:1:N-1;
+stem(n,h);
+xlabel('time index (n)');ylabel('the impluse response of the system h(n)');
