@@ -1,3 +1,5 @@
+clear;
+clc;
 x=[2 3 -1 4];
 N=length(x);
 X=zeros(1,N);
