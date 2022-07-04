@@ -4,7 +4,7 @@ n1=length(x1);
 n2=length(h1);
 N=max(n1,n2);
 if(n1>n2)
-    h1=[h1,zeros(1,n-n2)];
+    h1=[h1,zeros(1,n1-n2)];
 else
     x1=[x1,zeros(1,n2-n1)];
 end
