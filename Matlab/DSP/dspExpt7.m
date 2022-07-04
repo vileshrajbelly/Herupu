@@ -3,7 +3,7 @@ clc;
 a=input('enter the coefficents of x ');
 b=input('enter the coefficents of y ');
 N=input('enter the length of the input ');
-n=0:N;
+n=0:N-1;
 x=(1/2).^n;
 h=filter(a,b,x)
 
