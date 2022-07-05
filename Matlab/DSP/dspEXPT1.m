@@ -57,7 +57,7 @@ ylabel('Amp');
 title('reconstructed signal');
 
 %analog signal sampled at fs>>2fm
-fs3=var3*fm;
+fs3=20*fm;
 n=0:1/fs3:0.2;
 x3=cos(2*pi*f1*n)+cos(2*pi*f2*n);
 subplot(3,3,7);
