@@ -8,7 +8,7 @@ N=max(n1,n2);
         for k=0:N-1
             i=mod((n-k),N);
             if i<0
-            i=i+1;
+            i=i+N;
             end
             y(n+1)=y(n+1)+h(k+1)*x(i+1);
         end
