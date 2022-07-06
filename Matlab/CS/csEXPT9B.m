@@ -16,9 +16,9 @@ esspara=1/ka
 %for type 1
 kp=limit(k/(s*(s+1)),0)
 essstep=1/(1+kp)
-kv=limit((s+k)/(s+1)*s,0)
+kv=limit(s*(k/s*(s+1),0)
 essramp=1/kv
-ka=limit(((s^2)*k)/(s+1)*s,0)
+ka=limit((s*s*(k/s*(s+1)),0)
 esspara=1/ka
 
 %for type 2
