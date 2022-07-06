@@ -11,9 +11,8 @@ x1= [x1,zeros(1,N2-N1)]
 X1=fft(x1,N);
 X2=fft(x2,N);
 
-for k=0:N-1
-    Y(k+1)=X1(k+1)*X2(k+1)
-end
+Y=X1.*X2;
+
 y=ifft(Y,N)
 
 subplot(3,1,1);
