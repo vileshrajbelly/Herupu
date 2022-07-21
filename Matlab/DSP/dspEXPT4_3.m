@@ -7,8 +7,6 @@ n2=length(g2);
 g1e=[g1,zeros(1,n2-1)];
 g2e=[g2,zeros(1,n1-1)];
 
-N1=length(g1e);
-N2=length(g2e);
 
 N=n1+n2-1;
 
