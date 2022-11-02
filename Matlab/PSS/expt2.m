@@ -1,0 +1,10 @@
+clear;
+clc;
+xs=0.3;
+v=1;
+p=0.5;
+pf=0.8;
+imag=p/(v*pf);
+ang=acos(0.8);
+I=imag*cos(ang)-sin(ang)*i;
+e=v+I*xs;
